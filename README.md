@@ -1,4 +1,4 @@
-# 🛡️ Formulaire d'identification sécurisé - Laravel
+# Formulaire d'identification sécurisé - Laravel
 
 Ce projet est une application web d'authentification réalisée avec le framework **Laravel 11**. Il permet de se connecter à un espace membre et de créer de nouveaux comptes via un système sécurisé.
 
