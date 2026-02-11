@@ -2,7 +2,7 @@
 
 Ce projet est une application web d'authentification réalisée avec le framework **Laravel 11**. Il permet de se connecter à un espace membre et de créer de nouveaux comptes via un système sécurisé.
 
-## 📋 Fonctionnalités (Conforme aux Détails du Projet)
+##  Fonctionnalités (Conforme aux Détails du Projet)
 - **Interface de Connexion** :
   - Logo personnalisé.
   - Champs Identifiant et Mot de passe.
@@ -13,7 +13,7 @@ Ce projet est une application web d'authentification réalisée avec le framewor
   - Enregistrement d'un nouvel identifiant et mot de passe.
   - **Sécurité** : Validation obligatoire par une "Clé sécurisée".
 
-## 🛠️ Réalisation Technique
+##  Réalisation Technique
 - **Backend** : PHP 8.2+ / Laravel 11.
 - **Base de données** : SQLite (Stockage des comptes).
 - **Sécurité appliquée** :
@@ -21,7 +21,7 @@ Ce projet est une application web d'authentification réalisée avec le framewor
   - Hachage des mots de passe avec **BCrypt** via `Hash::make`.
   - Prévention des **injections SQL**.
 
-## 🚀 Installation & Utilisation
+##  Installation & Utilisation
 ###
 ### 1. Installation des dépendances
 composer install
@@ -36,7 +36,7 @@ php artisan migrate
 php artisan serve
 L'application est disponible sur : http://127.0.0.1:8000
 
-### 4. Information 
+### 4. Information
 Informations pour le test
 Clé sécurisée pour l'ajout de compte : 12345
 
