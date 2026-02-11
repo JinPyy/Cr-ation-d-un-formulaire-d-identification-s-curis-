@@ -37,7 +37,6 @@ php artisan serve
 L'application est disponible sur : http://127.0.0.1:8000
 
 ### 4. Information
-Informations pour le test
 Clé sécurisée pour l'ajout de compte : 12345
 
 Procédure : Cliquez sur "Ajout compte", remplissez les champs avec la clé 12345. Vous pourrez ensuite utiliser ces identifiants pour vous connecter sur la page d'accueil.
