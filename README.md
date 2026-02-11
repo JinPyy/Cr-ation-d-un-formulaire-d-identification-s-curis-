@@ -27,7 +27,7 @@ Ce projet est une application web d'authentification réalisée avec le framewor
   - Hachage des mots de passe avec l'algorithme **BCrypt** via `Hash::make`.
   - Prévention des **injections SQL** grâce à l'utilisation de l'ORM/Query Builder de Laravel.
 
-## ⚙️ Installation & Utilisation
+## Installation & Utilisation
 
 ### 1. Installation des dépendances
 Utilisez la commande suivante pour installer les composants nécessaires :
@@ -50,7 +50,7 @@ L'application sera alors disponible sur : http://127.0.0.1:8000
 
 ---
 
-## 🔑 Informations de test
+## Informations de test
 
 **Clé sécurisée pour l'ajout de compte** : `12345`  
 
