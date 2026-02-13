@@ -40,6 +40,9 @@ Utilisez la commande suivante pour installer les composants nécessaires :
 **Étape B : Générer la clé de sécurité de l'application**
 `php artisan key:generate`
 
+**Note pour Linux (Important)** > Avant l'étape suivante, assurez-vous d'avoir le driver SQLite :  
+`sudo apt-get update && sudo apt-get install php-sqlite3`
+
 **Étape C : Préparer la base de données SQLite**
 `touch database/database.sqlite && php artisan migrate`
 
