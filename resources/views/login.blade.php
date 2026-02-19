@@ -58,9 +58,14 @@
             <div class="buttons">
                 <button type="reset" style="background: gray">Reset</button>
                 <button type="submit" name="action" value="ok" style="background: orangered;">Ok</button>
-                <button type="submit" name="action" value="ajout" style="background: violet;">Ajout compte</button>
+                <a href="/register"
+                    style="background: violet; padding: 10px; border-radius: 5px; color: white; text-decoration: none; font-size: 13px;">
+                    Ajout compte
+                </a>
             </div>
         </form>
+
+
 
         @if(session('message'))
             <p class="msg">{{ session('message') }}</p>

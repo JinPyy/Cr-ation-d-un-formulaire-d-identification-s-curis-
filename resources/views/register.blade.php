@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Créer un compte</title>
     <style>
-         body {
+        body {
             font-family: sans-serif;
             display: flex;
             justify-content: center;
@@ -27,7 +27,7 @@
             border: 1px solid black;
         }
 
-        
+
         button {
             padding: 10px;
             cursor: pointer;
@@ -53,7 +53,7 @@
             <label>Mot de passe :</label>
             <input type="password" name="password" required>
 
-            <label>Clé sécurisée (code secret: 12345) :</label>
+            <label>Clé sécurisée</label>
             <input type="text" name="clef" placeholder="Entrez la clé pour valider" required>
 
             <button type="submit">Valider la création</button>
@@ -63,6 +63,11 @@
             <p class="error">{{ session('error') }}</p>
         @endif
 
+        @if($errors->any())
+            @foreach($errors->all() as $error)
+                <p class="error">{{ $error }}</p>
+            @endforeach
+        @endif
         <p><a href="/">Retour à la connexion</a></p>
     </div>
 </body>
