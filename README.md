@@ -55,10 +55,10 @@ L'application sera alors disponible sur : http://127.0.0.1:8000
 
 ## Informations de test
 
-**Clé sécurisée pour l'ajout de compte** : `12345`  
+**Clé sécurisée pour l'ajout de compte** : `Secure@2026`  
 
 **Procédure pour tester** : 
 1. Cliquez sur le bouton **"Ajout compte"**.
-2. Remplissez les champs (Identifiant, Mot de passe) en utilisant la clé de sécurité `12345`.
+2. Remplissez les champs (Identifiant, Mot de passe) en utilisant la clé de sécurité `Secure@2026`.
 3. Une fois redirigé, utilisez ces mêmes identifiants pour vous connecter sur la page d'accueil.
 
